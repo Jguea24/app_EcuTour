@@ -50,7 +50,7 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-ROOT_URLCONF = 'api_guayabal.urls'
+ROOT_URLCONF = 'api_ecutour.urls'
 
 TEMPLATES = [
     {
@@ -83,7 +83,7 @@ SIMPLE_JWT = {
 
 
 
-WSGI_APPLICATION = 'api_guayabal.wsgi.application'
+WSGI_APPLICATION = 'api_ecutour.wsgi.application'
 
 
 # Database
@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'api_guayabal.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'api_guayabal',
+        'NAME': 'app_EcuTour',
         'USER': 'guayabal_user',
         'PASSWORD': 'admin1234',
         'HOST': 'localhost',

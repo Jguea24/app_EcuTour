@@ -35,7 +35,7 @@ from app.views import (
 def home(request):
     return JsonResponse({
         "status": "OK",
-        "message": "API Licorería Guayabal funcionando correctamente admin/ register/ login/ token/refresh/ products/ cart/"
+        "message": "API de Ecutour funcionando correctamente admin/ register/ login/ token/refresh/ products/ cart/"
     })
 
 urlpatterns = [
